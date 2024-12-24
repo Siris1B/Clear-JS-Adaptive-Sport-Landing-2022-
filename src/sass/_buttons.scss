@@ -1,0 +1,69 @@
+.button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: $main-color;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    &_main {
+        margin-top: 67px;
+        width: 300px;
+        height: 50px;
+        font-size: 16px;
+    }
+    &_submit {
+        width: 100%;
+        height: 55px;
+        font-size: 16px;
+    }
+    &_mini {
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .button {
+        &_main {
+            font-size: 15px;
+            height: 45px;
+            width: 250px;
+        }
+    }
+}
+
+@media (max-width: 601px) {
+    .button {
+        &_sub {
+            font-size: 11px;
+            height: 28px;
+            width: 120px;
+        }
+        &_submit {
+            height: 45px;
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+ .button {
+    &_mini {
+        width: 100px;
+        height: 36px;
+    }
+ }
+}
+@media (max-width: 574px) {
+    .button {
+       &_mini {
+           width: 85px;
+           height: 34px;
+           font-size: 12px;
+       }
+    }
+   }

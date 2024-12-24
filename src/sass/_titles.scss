@@ -1,0 +1,45 @@
+.title {
+    color: #0d0d0d;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    &_left {
+        color: #ffffff;
+        font-size: 36px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 1023px) {
+    .title {
+        font-size: 28px;
+        &_left {
+            font-size: 28px;
+        }
+    }
+}
+@media (max-width: 650px) {
+    .title {
+        font-size: 25px;
+        &_left {
+            font-size: 22px;
+        }
+    }
+}
+@media (max-width: 555px) {
+    .title {
+        font-size: 22px;
+        &_left {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .catalog {
+        .title {
+            margin-top: 45px;
+        }
+    }
+}
